@@ -38,7 +38,7 @@ react-router-dom의 outlet 컴포넌트를 사용하여 로그인, 회원가입 
 ![signup-성공시](https://github.com/woong3e/46-1st-BestFriend-frontendGw/assets/86347667/ac69409e-45bb-4307-85e7-6c3f4f3293ec)
 ![signup-실패시](https://github.com/woong3e/46-1st-BestFriend-frontendGw/assets/86347667/1f97e149-e37a-486d-a6d3-7ae6447a47c8)
 - map메서드를 사용하여 유저정보를 입력하는 input과 유효성검사에 따른 메시지를 담는 p태그를 만들었고, 상수데이터를 활용하여 키값을 부여했습니다. 유효성검사하는 객체를 선언하였고 그 반환값에 따라 다른 텍스트를 보여주는 객체를 선언하였습니다. 각 input의 유효성검사를 통과하면 아래 p태그 값과 색이 바뀌도록 하였습니다. 모든 유효성검사를 통과하고 체크박스를 체크한뒤 버튼클릭하면 API요청하도록합니다.  통신이 성공하면 로그인 페이지로 이동해 바로 로그인을 할 수 있도록 구현했습니다. <br/>
-![login-성공시](https://github.com/woong3e/46-1st-BestFriend-frontend/assets/86347667/e9178ee7-be40-4e6a-b318-097d21042453)![login-실패시](https://github.com/woong3e/46-1st-BestFriend-frontend/assets/86347667/aa8d6f7f-acf5-43a6-8f2e-9b4b15bd3d98)
+![login-성공시](https://github.com/woong3e/46-1st-BestFriend-frontend/assets/86347667/e9178ee7-be40-4e6a-b318-097d21042453)
 ![login-실패시](https://github.com/woong3e/46-1st-BestFriend-frontend/assets/86347667/865fb416-16ba-49bc-a5c8-83803a7bac7a) <br/>
 - 로그인 유효성 검사에 따라 값이 입력되지 않았을 때, ‘로그인에 실패했다’라는 토스트팝업 유저에게 띄워주고, 성공시에는 API 요청하도록 했습니다. API요청후 데이터가 일치하지 않았을 때에도 실패했다는 토스트팝업을 띄어 유저가 쉽게 알 수 있도록 했습니다.
 
