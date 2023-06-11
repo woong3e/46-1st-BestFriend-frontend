@@ -34,11 +34,20 @@
 
 1. 내비게이션 바 드롭다운 메뉴
 2. 회원가입/로그인
-3. 상품 카테고리, 필터, 정렬, 페이지네이션, 검색
-4. 상품 상세페이지 동적 라우팅
-5. 위시리스트, 장바구니
-6. 결제
-7. 기타: 캐러셀, 토스트 팝업
+![login-성공시](https://github.com/woong3e/46-1st-BestFriend-frontend/assets/86347667/e9178ee7-be40-4e6a-b318-097d21042453)![login-실패시](https://github.com/woong3e/46-1st-BestFriend-frontend/assets/86347667/aa8d6f7f-acf5-43a6-8f2e-9b4b15bd3d98)
+![login-실패시](https://github.com/woong3e/46-1st-BestFriend-frontend/assets/86347667/865fb416-16ba-49bc-a5c8-83803a7bac7a)
+
+- react-router-dom의 outlet 컴포넌트를 사용하여 로그인, 회원가입 페이지에서는 nav바와 footer가 포함되지 않도록 구현
+- 로그인 페이지에서 유효성검사 통과시 API 요청.
+- 백엔드 통신 후 분기처리
+- 성공시 메인이동, 실패시 토스트팝업 알림
+
+
+4. 상품 카테고리, 필터, 정렬, 페이지네이션, 검색
+5. 상품 상세페이지 동적 라우팅
+6. 위시리스트, 장바구니
+7. 결제
+8. 기타: 캐러셀, 토스트 팝업
 
 ## 📚 기술 스택
 
