@@ -33,7 +33,7 @@
 ## ⚡️ 구현 기능
 
 1. 내비게이션 바 드롭다운 메뉴
-2. 회원가입/로그인
+2. 회원가입/로그인 <br/>
 ![login-성공시](https://github.com/woong3e/46-1st-BestFriend-frontend/assets/86347667/e9178ee7-be40-4e6a-b318-097d21042453)![login-실패시](https://github.com/woong3e/46-1st-BestFriend-frontend/assets/86347667/aa8d6f7f-acf5-43a6-8f2e-9b4b15bd3d98)
 ![login-실패시](https://github.com/woong3e/46-1st-BestFriend-frontend/assets/86347667/865fb416-16ba-49bc-a5c8-83803a7bac7a)
 
