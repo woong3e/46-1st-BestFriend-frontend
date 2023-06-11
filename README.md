@@ -37,17 +37,17 @@
 react-router-dom의 outlet 컴포넌트를 사용하여 로그인, 회원가입 페이지에서는 nav바와 footer가 포함되지 않도록 구현하였습니다. <br/>
 ![signup-성공시](https://github.com/woong3e/46-1st-BestFriend-frontendGw/assets/86347667/ac69409e-45bb-4307-85e7-6c3f4f3293ec)
 ![signup-실패시](https://github.com/woong3e/46-1st-BestFriend-frontendGw/assets/86347667/1f97e149-e37a-486d-a6d3-7ae6447a47c8)
-- map메서드를 사용하여 유저정보를 입력하는 input과 유효성검사에 따른 메시지를 담는 p태그를 만들었고, 상수데이터를 활용하여 키값을 부여했습니다. 유효성검사하는 객체를 선언하였고 그 반환값에 따라 다른 텍스트를 보여주는 객체를 선언하였습니다. 각 input의 유효성검사를 통과하면 아래 p태그 값과 색이 바뀌도록 하였습니다. 모든 유효성검사를 통과하고 체크박스를 체크한뒤 버튼클릭하면 API요청하도록합니다.  통신이 성공하면 로그인 페이지로 이동해 바로 로그인을 할 수 있도록 구현했습니다.
+- map메서드를 사용하여 유저정보를 입력하는 input과 유효성검사에 따른 메시지를 담는 p태그를 만들었고, 상수데이터를 활용하여 키값을 부여했습니다. 유효성검사하는 객체를 선언하였고 그 반환값에 따라 다른 텍스트를 보여주는 객체를 선언하였습니다. 각 input의 유효성검사를 통과하면 아래 p태그 값과 색이 바뀌도록 하였습니다. 모든 유효성검사를 통과하고 체크박스를 체크한뒤 버튼클릭하면 API요청하도록합니다.  통신이 성공하면 로그인 페이지로 이동해 바로 로그인을 할 수 있도록 구현했습니다. <br/>
 ![login-성공시](https://github.com/woong3e/46-1st-BestFriend-frontend/assets/86347667/e9178ee7-be40-4e6a-b318-097d21042453)![login-실패시](https://github.com/woong3e/46-1st-BestFriend-frontend/assets/86347667/aa8d6f7f-acf5-43a6-8f2e-9b4b15bd3d98)
-![login-실패시](https://github.com/woong3e/46-1st-BestFriend-frontend/assets/86347667/865fb416-16ba-49bc-a5c8-83803a7bac7a)
+![login-실패시](https://github.com/woong3e/46-1st-BestFriend-frontend/assets/86347667/865fb416-16ba-49bc-a5c8-83803a7bac7a) <br/>
 - 로그인 유효성 검사에 따라 값이 입력되지 않았을 때, ‘로그인에 실패했다’라는 토스트팝업 유저에게 띄워주고, 성공시에는 API 요청하도록 했습니다. API요청후 데이터가 일치하지 않았을 때에도 실패했다는 토스트팝업을 띄어 유저가 쉽게 알 수 있도록 했습니다.
 
 4. 상품 카테고리, 필터, 정렬, 페이지네이션, 검색
 5. 상품 상세페이지 동적 라우팅
 6. 위시리스트, 장바구니
-7. 결제
+7. 결제 <br/>
 ![checkout-성공시](https://github.com/woong3e/46-1st-BestFriend-frontendGw/assets/86347667/26289f30-d612-45c5-a55e-115942866d7d)
-![checkout-실패시](https://github.com/woong3e/46-1st-BestFriend-frontendGw/assets/86347667/cb02dbd3-2e66-4dfd-93c2-a471108f4c9c)
+![checkout-실패시](https://github.com/woong3e/46-1st-BestFriend-frontendGw/assets/86347667/cb02dbd3-2e66-4dfd-93c2-a471108f4c9c) <br/>
 - API요청후에 서버에서 유저정보와 장바구니에서 담은 리스트들을 get메서드를 사용하여 나타냅니다. 포인트가 충분할 때 결제API요청후 통신 성공시 모달창에 API통신후의 데이터 정보를 담았고 결제창의 정보를 blur처리 한 후 setTimeout 함수를 사용하여 5초후 메인페이지로 이동하도록 하였습니다. 포인트가 부족할 때는 토스트팝업을 띄워 함수를 종료시킵니다.
 9. 기타: 캐러셀, 토스트 팝업
 - 토스트팝업은 API통신에 실패할 경우, 유효성 검사에 실패했을 경우에 UX개선을 위해 사용하였습니다. setTimeout 함수를 사용하여 일정시간 후 사라지도록 하였습니다.
